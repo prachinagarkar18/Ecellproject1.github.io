@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive PeronalWebsite Design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo&display=swap" rel="stylesheet">
+<style>
+    *{
+        margin:0;
+        padding: 0;
+    }
+body{
+    background-color: #050123;
+    color: #fff;
+    font-family: 'archivo';
+}
+ nav{
+    height: 38px;
+    width: 100%;
+    background:#0ef;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ }   
+ nav ul{
+    display: flex;
+    justify-content: center;
+
+ }
+ nav ul li{
+    list-style: none;
+    margin: 8px;
+    color: rgb(18, 18, 83);
+    text-decoration: none  ;
+ }
+ .left{
+    font-size: 1.5rem;
+ }
+ .firstsection{
+    display: flex;
+    justify-content: space-around;
+    margin:23px 0 ;
+ }
+.leftsection{
+    width: 50%;
+    height:4rem;
+    margin-left: 5rem;
+    margin-top: 2rem;
+    font-size: 35px;
+    vertical-align: middle;
+}
+.rightsection{
+    width: 9rem;
+height: 175px;
+background-image:url("My photo.jpg") ;
+
+border-radius: 3rem;
+border-color: #0ef;
+border-width: 4px;
+
+margin-right: 7rem;
+animation: prachi 4s linear 1s infinite alternate;
+}
+@keyframe prachi{
+    from{
+        transform: translateY(110vh);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+.mee{
+    color:rgb(0, 200, 255)
+}
+a{
+    text-decoration: none;
+}
+#element{
+    font-size: 27px;
+    color: rgb(182, 226, 254);
+}
+.secondsection{
+    margin-top: 46px;
+    margin-left: 30px;
+    
+}
+.box{
+    height:0.25px;
+    width:90%;
+    background-color: aqua;
+    margin-top:62px ;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+.edu{
+    text-decoration: underline;
+    text-decoration-color: #0ef;
+}
+.thirdsection{
+    margin-top: 25px;
+    margin-left: 30px;
+}
+.skills{
+    text-decoration: underline;
+    text-decoration-color: #0ef;
+}
+.fourthsection{
+    margin-top: 25px;
+}
+.project{
+    font-size: 22px;
+    text-decoration: underline;
+    text-decoration-color: #0ef;
+}
+.icon1{
+margin-top: 0.80rem;
+}
+.fifthsection{
+    margin-top: 25px; 
+}
+.contact{
+    font-size: 22px;
+    text-decoration: underline;
+    text-decoration-color: #0ef;
+}
+.insta{
+
+}
+</style>
+</head>
+<body>
+<header>
+    <nav>
+        <div class="left">Prachi's Portfolio</div>
+        <div class="right">
+            <ul>
+             <a href="#home"><li>Home</li></a>
+             <a href="#education"><li>Education</li></a>
+             <a href="#skills"><li>Skills</li></a>
+             <a href="#projects"><li>Projects</li></a>
+             <a href="#contact"><li>Contact Me</li></a>
+            </ul>
+        </div>
+    </nav>
+</header>
+<main>
+    <section class="firstsection">
+        <div class="leftsection">
+            Hello,
+            My name is<div class="mee"> Prachi Nagarkar</div>
+            <span id="element"></span>
+        </div>
+        <div class="rightsection">
+            
+        </div>
+    </section>
+    <div class="box"></div>
+    <section class="secondsection">
+        <div class="edu"><h1>Education</h1></div>
+        BTech in Electrical and Electronics Engineering, 2022-2026   (currently pursuing)
+        <div>Academic score: 7.14 cgpa</div>
+    </section>
+    <section class="thirdsection">
+        <div class="skills"><h1>Skills</h1></div>
+        <li>Computer Programming</li>
+        <li>Python</li>
+        <li>Web development</li>
+    <section class="fourthsection">
+        <div class="project">
+        <h1>Projects</h1></div>
+        <div class="icon1"><a href="https://sites.google.com/view/lip-bar/home"><img src="icon1.png" height="30px" width="30px"></a> Brand Advertising Website</div>
+        <div class="icon2">
+            <a href="file:///C:/Users/MAYURESH/OneDrive/Desktop/Web%20dev%20Project1/index1.html"><img src="icon2.png" height="30px" width="30px"></a> Amazon Dummy Website
+        </div>
+    </section>
+    <section class="fifthsection">
+        <div class="contact">
+            <h1>Contact Me</h1>
+        </div>
+        <div class="linkdeln">
+            <a><img src="linkedin.png" height="30px" width="30px"></a>Prachi Nagarkar
+        </div>
+        <div class="phone">
+            <a><img src="phone-call.png" height="30px" width="30px"></a>96xxyyyzzz
+        </div>
+        <div class="mail">
+            <a><img src="social.png" height="30px" width="30px"></a>
+        prachinagarkar18@gmail.com</div>
+        <div class="insta">
+            <a href="instagram.com"><img src="instagram.png" height="30px" width="30px"></a>
+        prachi_nagarkar_</div>
+        
+    </section>
+</main>
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<script>
+    var typed = new Typed('#element', {
+      strings: ['Passionate', 'Dedicated','Assudious'],
+      typeSpeed: 50,
+    });
+  </script>
+
+
+</body>
+</html>
